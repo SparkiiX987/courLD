@@ -2400,18 +2400,30 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8117638813015596521, guid: e5fb22550c4054b4aa3726e9db18b436, type: 3}
+      propertyPath: m_Mass
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8117638813015596530, guid: e5fb22550c4054b4aa3726e9db18b436, type: 3}
       propertyPath: m_Name
       value: P_Color2
       objectReference: {fileID: 0}
     - target: {fileID: 8117638813015596532, guid: e5fb22550c4054b4aa3726e9db18b436, type: 3}
       propertyPath: moveSpeed
-      value: 40
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8117638813015596532, guid: e5fb22550c4054b4aa3726e9db18b436, type: 3}
       propertyPath: checkpoint
       value: 
       objectReference: {fileID: 514515238}
+    - target: {fileID: 8117638813015596532, guid: e5fb22550c4054b4aa3726e9db18b436, type: 3}
+      propertyPath: m_JumpForce
+      value: 4000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8117638813015596532, guid: e5fb22550c4054b4aa3726e9db18b436, type: 3}
+      propertyPath: m_AirControl
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8117638813015596533, guid: e5fb22550c4054b4aa3726e9db18b436, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2560,15 +2572,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 514953379447151170, guid: 69db78bd25d28314ca7d4473ae7b1187, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 514953379447151170, guid: 69db78bd25d28314ca7d4473ae7b1187, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 514953379447151170, guid: 69db78bd25d28314ca7d4473ae7b1187, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 514953379447151170, guid: 69db78bd25d28314ca7d4473ae7b1187, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2610,6 +2622,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 514953379447151170, guid: 69db78bd25d28314ca7d4473ae7b1187, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 514953379447151171, guid: 69db78bd25d28314ca7d4473ae7b1187, type: 3}
       propertyPath: moveSpeed
       value: 40
@@ -2618,6 +2634,10 @@ PrefabInstance:
       propertyPath: checkpoint
       value: 
       objectReference: {fileID: 1451714986}
+    - target: {fileID: 514953379447151171, guid: 69db78bd25d28314ca7d4473ae7b1187, type: 3}
+      propertyPath: m_JumpForce
+      value: 3500
+      objectReference: {fileID: 0}
     - target: {fileID: 514953379447151173, guid: 69db78bd25d28314ca7d4473ae7b1187, type: 3}
       propertyPath: m_Name
       value: P_Color1
@@ -2625,6 +2645,10 @@ PrefabInstance:
     - target: {fileID: 514953379447151173, guid: 69db78bd25d28314ca7d4473ae7b1187, type: 3}
       propertyPath: m_TagString
       value: M_Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 514953379447151198, guid: 69db78bd25d28314ca7d4473ae7b1187, type: 3}
+      propertyPath: m_Mass
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2163692185282116193, guid: 69db78bd25d28314ca7d4473ae7b1187, type: 3}
       propertyPath: m_RootOrder
